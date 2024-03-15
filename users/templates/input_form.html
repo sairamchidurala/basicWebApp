@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Form</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <form id="user-form" method="post">
+        <h3 class="double-underline">Please entry your details:</h3>
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Submit</button>
+    </form>
+<script>
+        document.getElementById("user-form").onsubmit = function() {
+            var ageInput = document.getElementById("id_age");
+            var age = parseInt(ageInput.value);
+            if (isNaN(age) || age <= 0) {
+                var errorMessage = document.getElementById("error-message");
+                errorMessage.textContent = "Please enter a valid positive age.";
+                errorMessage.style.display = "block"; // Display the error message
+                ageInput.focus();
+                return false;
+            }
+            return true;
+        };
+    </script>
+</body>
+</html>
