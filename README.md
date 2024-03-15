@@ -19,8 +19,6 @@ This is a simple web application built with Django that allows users to input da
 5. Running the Application
 `python manage.py runserver`
 
-7. Start the Django development server:
-`python manage.py runserver`
 
 Access the application in your web browser at http://127.0.0.1:8000/.
 
