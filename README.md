@@ -5,7 +5,7 @@ This is a simple web application built with Django that allows users to input da
 ## Setup and Installation
 
 1. Clone the repository to your local machine:
- ```git clone <repository-url>```
+ ```git clone https://github.com/sairamchidurala/basicWebApp.git```
 
 2. Navigate to the project directory:
 ```cd basicWebApp```
