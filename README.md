@@ -5,10 +5,14 @@ This is a simple web application built with Django that allows users to input da
 ## Setup and Installation
 
 1. Clone the repository to your local machine:
+
 `git clone https://github.com/sairamchidurala/basicWebApp.git`
 
+
 2. Navigate to the project directory:
+
 `cd basicWebApp`
+
 
 3. Create a virtual envirnoment and activate it.
 
@@ -18,11 +22,14 @@ This is a simple web application built with Django that allows users to input da
 1. **Create Virtual Environment:**
    Launch Command Prompt and navigate to the directory where you wish to establish the virtual environment.
    Execute the following command to form a virtual environment named "venv":
+
    `python -m venv venv`
 
-2. **Activate Virtual Environment:**
+3. **Activate Virtual Environment:**
    Move to the directory containing the virtual environment and initiate the activation script:
+
    `venv\Scripts\activate`
+
    Upon activation, you'll notice "(venv)" displayed at the beginning of the command prompt, indicating the active virtual environment.
 
 ## **For macOS:**
@@ -30,21 +37,29 @@ This is a simple web application built with Django that allows users to input da
 1. **Create Virtual Environment:**
    Open the Terminal and navigate to the desired directory for the virtual environment.
    Utilize the following command to generate a virtual environment named "venv":
+
    `python3 -m venv venv`
 
-2. **Activate Virtual Environment:**
+3. **Activate Virtual Environment:**
    Navigate to the directory holding the virtual environment and run the activation script:
+
    `source venv/bin/activate`
    
    Upon activation, you can proceed to install dependencies and execute Python scripts without impacting the system-wide Python installation. To deactivate the virtual environment, simply execute the `deactivate` command in the Command Prompt or Terminal.
 
-4. Install dependencies using pip:
+
+5. Install dependencies using pip:
+
 `pip install -r requirements.txt`
 
-5. Apply migrations to set up the database schema:
+
+6. Apply migrations to set up the database schema:
+
 `python manage.py migrate`
 
-6. Running the Application
+
+7. Running the Application
+
 `python manage.py runserver`
 
 
