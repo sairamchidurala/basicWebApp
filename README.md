@@ -5,22 +5,22 @@ This is a simple web application built with Django that allows users to input da
 ## Setup and Installation
 
 1. Clone the repository to your local machine:
- ```git clone https://github.com/sairamchidurala/basicWebApp.git```
+`git clone https://github.com/sairamchidurala/basicWebApp.git`
 
 2. Navigate to the project directory:
-```cd basicWebApp```
+`cd basicWebApp`
 
 3. Install dependencies using pip:
-```pip install -r requirements.txt```
+`pip install -r requirements.txt`
 
 4. Apply migrations to set up the database schema:
-```python manage.py migrate```
+`python manage.py migrate`
 
 5. Running the Application
-```python manage.py runserver```
+`python manage.py runserver`
 
 7. Start the Django development server:
-```python manage.py runserver```
+`python manage.py runserver`
 
 Access the application in your web browser at http://127.0.0.1:8000/.
 
@@ -29,7 +29,7 @@ User Input Form: Allows users to input their name, email, age, and date of birth
 
 Form Validation: Ensures data validity through client-side and server-side validation.
 
-Data Storage: Stores valid user data in a SQLite database.
+Data Storage: Stores valid user data in an SQLite database.
 
 Data Retrieval: Displays stored data in a tabular format on the data table page.
 
